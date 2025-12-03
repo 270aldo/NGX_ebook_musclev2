@@ -28,7 +28,7 @@ export interface AgentKnowledgeItem {
 }
 
 export type ChatRole = 'user' | 'agent';
-export type ChatType = 'text' | 'card' | 'image';
+export type ChatType = 'text' | 'card' | 'image' | 'error';
 
 export interface ChatMessage {
   role: ChatRole;
